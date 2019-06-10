@@ -6,12 +6,7 @@ app.use(cors())
 app.use(body.json())
 
 
-// Test run for app listening on port 3001
-app.get('/',(req,res) =>{
-	res.send('listening')
-
-
-})
+// Test run
 
 /**app.post('/state_hotels', (req, res) => {
 	

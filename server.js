@@ -121,6 +121,6 @@ const placeToken = async (keyword, token,res) => {
 
 
 
-app.listen(443, () => {
+app.listen(process.env.PORT, () => {
 	console.log('app is listening')
 })
